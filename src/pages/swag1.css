@@ -1,0 +1,73 @@
+/* .swagComponent{
+  display: flex;
+  height: 570px;
+  position: relative;
+  width: 60vw;
+}
+
+.swagBox1, .swagBox2{
+  width: 50vw;
+  padding-right: 10px;
+}
+
+img{
+  width: 40vw;
+} */
+
+.swagComponent{
+  position: relative;
+  /* width: 53vw; */
+}
+
+.swagBox1, .swagBox2{
+  /* width: 26vw; */
+  position: absolute;
+  width: 49vw;
+  overflow-x: hidden;
+}
+.swagBox1{
+  left: 0px;
+}
+.swagBox2{
+  right: 0px;
+}
+.swagBox1 img{
+  /* position: absolute; */
+  /* width: 53vw; */
+  width: 100vw;
+  /* left: 0px; */
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.swagBox2 img{
+  /* position: absolute; */
+  /* width: 53vw; */
+  width: 100vw;
+  right: 0px;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.swagBox1 img:hover{
+  /* position: absolute; */
+  width: 100vw;
+  left: 0px;
+  /* z-index: 2; */
+  /* overflow-x: hidden; */
+}
+.swagBox2 img:hover{
+  /* position: absolute; */
+  /* width: 100vw; */
+  left: 0px;
+  z-index: 2;
+  /* overflow-x: hidden; */
+}
+.swagBox1:hover{
+  width: 100vw;
+  overflow-x:visible;
+  z-index: 2;
+}
+.swagBox2:hover{
+  width: 100vw;
+}
