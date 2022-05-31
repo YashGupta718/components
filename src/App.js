@@ -5,7 +5,6 @@ import Swag1 from './pages/swag1';
 function App() {
   return (
     <div className="App">
-      hiii
       <Swag1 />
     </div>
   );

@@ -22,41 +22,64 @@ img{
 .swagBox1, .swagBox2{
   /* width: 26vw; */
   position: absolute;
-  width: 49vw;
+  width: 50vw;
+  transition: 0.5s ease-in;
   overflow-x: hidden;
 }
 .swagBox1{
   left: 0px;
+  /* transition: 0.5s ease-in; */
 }
 .swagBox2{
   right: 0px;
 }
-.swagBox1 img{
+.swagBox1 div{
+  background: url(https://swagdecorative.com/static/media/1.5a2209cfb11a6dc7346c.jpeg);
   /* position: absolute; */
   /* width: 53vw; */
+  /* transition: background 0.5s ease-in; */
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
+  /* height: 116vh; */
+  height: 100vh;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  padding-left: 10vw;
+  font-size: 25px;
   /* left: 0px; */
   overflow-x: hidden;
   z-index: 1;
 }
 
-.swagBox2 img{
+.swagBox2 div{
   /* position: absolute; */
   /* width: 53vw; */
+  background: url(https://swagdecorative.com/static/media/2.e1ba5cdfc96a13aee1ee.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  padding-left: 10vw;
+  font-size: 25px;
+  /* height: 116vh; */
+  height: 100vh;
   right: 0px;
   overflow-x: hidden;
   z-index: 1;
 }
 
-.swagBox1 img:hover{
+.swagBox1 div:hover{
   /* position: absolute; */
   width: 100vw;
   left: 0px;
   /* z-index: 2; */
   /* overflow-x: hidden; */
 }
-.swagBox2 img:hover{
+.swagBox2 div:hover{
   /* position: absolute; */
   /* width: 100vw; */
   left: 0px;
@@ -64,10 +87,14 @@ img{
   /* overflow-x: hidden; */
 }
 .swagBox1:hover{
+  /* transition: all 0.5s ease; */
   width: 100vw;
-  overflow-x:visible;
+  /* transition: 0.5s; */
+  /* overflow-x:visible; */
   z-index: 2;
 }
 .swagBox2:hover{
+  /* transition: all 0.5s ease; */
+  /* transition: 0.6s; */
   width: 100vw;
 }
